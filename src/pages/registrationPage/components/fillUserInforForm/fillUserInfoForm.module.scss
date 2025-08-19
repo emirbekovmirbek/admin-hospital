@@ -1,0 +1,23 @@
+.wrapper {
+  > form > .inputs{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(360px, 1fr));
+    gap: 20px;
+  }
+  > form > label {
+    margin-top: 20px;
+  }
+  > form > button {
+    margin-top: 20px;
+  }
+}
+
+.radioInputs {
+  > div {
+    margin-top: 6px;
+    display: grid;
+    gap: 6px;
+    height: fit-content;
+  }
+}

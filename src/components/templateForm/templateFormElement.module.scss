@@ -1,0 +1,51 @@
+.form_element_template {
+  text-align: start;
+}
+.form_element_template > span {
+  height: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+.form_element_template > .label_hidden {
+  display: none;
+}
+
+.form_element_template > label {
+  column-gap: 14px;
+  display: flex;
+  align-items: center;
+  background: var(--surface-surface-high);
+  padding: 12px 24px;
+  border-radius: 16px;
+  height: 50px;
+  border: 1px solid var(--surface-surface-high);
+}
+
+.form_element_template input,
+.form_element_template textarea,
+.form_element_template select {
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+  font: var(--reg-16);
+  background: transparent;
+  color: var(--primary-on-primary-dark);
+}
+.form_element_template input::placeholder {
+  color: rgba(124, 124, 125, 0.8);
+}
+.form_element_template--secondary > label {
+  background: var(--primary-on-primary);
+}
+
+.form_element_template--invalid > label {
+  border-color: var(--error-error);
+  background: var(--error-error-95);
+}
+
+.form_element_template--invalid > label,
+.form_element_template--invalid > .label,
+.form_element_template--invalid::placeholder {
+
+}

@@ -1,0 +1,15 @@
+.card {
+  padding: 4px 6px;
+  width: 100%;
+  > a {
+    font: var(--reg-16);
+    font-weight: 600;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .desc {
+    display: flex;
+    gap: 8px;
+  }
+}

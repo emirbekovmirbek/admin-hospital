@@ -1,0 +1,16 @@
+.header {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: max(520px) max(308px);
+  justify-content: space-between;
+  align-items: center;
+  .notification {
+    padding: 8px;
+    border-radius: 50%;
+  }
+
+  .right {
+    display: flex;
+    justify-content: space-between;
+  }
+}

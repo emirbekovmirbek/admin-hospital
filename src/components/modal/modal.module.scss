@@ -1,0 +1,47 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  background: var(--overlays-default);
+  animation: hidden .3s;
+  visibility: hidden;
+  transition: visibility .3s, z-index 0.3s;
+  display: grid;
+  z-index: -99;
+  &.visible {
+    animation: show .3s;
+    visibility: visible;
+    z-index: 99;
+  }
+  > div {
+    max-height: 98vh;
+    padding: 16px;
+    border-radius: 16px;
+    background: var(--surface-surface);
+    overflow-y: auto;
+  }
+}
+@keyframes show {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes hidden {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0);
+    opacity: 0;
+  }
+}

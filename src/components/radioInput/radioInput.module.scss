@@ -1,0 +1,47 @@
+.radio {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+  width: fit-content;
+  font: var(--reg-14);
+}
+
+.radio > input {
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.radio > p {
+  font: var(--reg-16);
+}
+
+.radio > span {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid var(--primary-primary);
+  transition: background .3s, after .3s;
+}
+
+.radio > input:checked + span:after {
+  position: absolute;
+  content: '';
+  background: var(--primary-primary);
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.error > span {
+  border: 1px solid var(--error-error);
+}
+
+.error > input:checked + span:after {
+  background: var(--error-error);
+}

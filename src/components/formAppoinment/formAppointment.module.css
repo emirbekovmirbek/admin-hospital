@@ -1,0 +1,23 @@
+.form, .main > div  {
+  display: grid;
+  gap: 28px;
+  margin-top: 10px
+}
+.times > div,
+.week > div,
+.main > div {
+  display: grid;
+  gap: 12px;
+}
+.week > div{
+  margin-top: 10px;
+  grid-template-columns: repeat(auto-fit, 134px);
+}
+.times > div {
+  margin-top: 10px;
+  grid-template-columns: repeat(auto-fit, 104px);
+}
+
+.actions > button:first-child {
+  margin-bottom: 8px;
+}

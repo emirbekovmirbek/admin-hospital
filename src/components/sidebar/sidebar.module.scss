@@ -1,0 +1,49 @@
+.sidebar {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  position: fixed;
+  z-index: 10;
+  height: 100%;
+  width: 72px;
+  transition: width 0.4s ease;
+  overflow: hidden;
+  box-shadow: 0 4px 20px 0 #29292933;
+  background: var(--surface-surface);
+  display: flex;
+  flex-direction: column;
+   a > span {
+    clip-path: inset(0 100% 0 0);
+    transition: clip-path 0.3s ease;
+  }
+
+  &:hover {
+    width: 302px;
+     a > span {
+      clip-path: inset(0 0 0 0);
+    }
+    .active {
+      background: linear-gradient(90.1deg, rgba(139, 117, 245, 0.15) 0.07%, rgba(196, 196, 196, 0) 99.91%);
+    }
+  }
+  .link {
+    padding: 20px 24px;
+    border-left: 4px solid transparent;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    align-items: center;
+    column-gap: 16px;
+    color: var(--secondary-secondary);
+
+    &:hover {
+      color: var(--primary-primary);
+    }
+  }
+  .last {
+    margin-top: auto;
+  }
+  .active {
+    border-color: var(--primary-primary);
+    color: var(--primary-primary);
+  }
+}
+

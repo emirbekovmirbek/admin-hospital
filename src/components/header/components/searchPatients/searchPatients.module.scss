@@ -1,0 +1,19 @@
+.template {
+  position: relative;
+  > .search {
+    width: 100%;
+    position: absolute;
+    top: 110%;
+    background: var(--primary-on-primary);
+    border-radius: 16px;
+    padding: 10px 14px;
+    max-height: 400px;
+    overflow-y: auto;
+    > ul > li {
+      border-bottom: 1px solid var(--secondary-secondary);
+    }
+  }
+  .hidden {
+    display: none;
+  }
+}

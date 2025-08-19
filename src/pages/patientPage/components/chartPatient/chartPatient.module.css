@@ -1,0 +1,12 @@
+.card {
+  overflow-x: auto;
+}
+.filter-date {
+  display: grid;
+  grid-template-columns:repeat(auto-fit, 74px);
+  gap: 8px;
+}
+.notfound {
+  margin: 10px 0;
+  min-height: 150px;
+}

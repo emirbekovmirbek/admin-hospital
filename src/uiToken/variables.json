@@ -1,0 +1,93 @@
+{
+  "version": "1.0.4",
+  "metadata": {},
+  "collections": [
+    {
+      "name": "Color/Semantic",
+      "modes": [
+        {
+          "name": "Light",
+          "variables": [
+            {
+              "name": "Primary/primary",
+              "type": "color",
+              "isAlias": false,
+              "value": "#31B72A"
+            },
+            {
+              "name": "Primary/active_primary",
+              "type": "color",
+              "isAlias": false,
+              "value": "#268D20"
+            },
+            {
+              "name": "Primary/on_primary",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FBFEFB"
+            },
+            {
+              "name": "Primary/primary_container",
+              "type": "color",
+              "isAlias": false,
+              "value": "#AFECAC"
+            },
+            {
+              "name": "Primary/active_primary_container",
+              "type": "color",
+              "isAlias": false,
+              "value": "#87E282"
+            },
+            {
+              "name": "Primary/on_primary_container",
+              "type": "color",
+              "isAlias": false,
+              "value": "#0B2909"
+            }
+          ]
+        },
+        {
+          "name": "Dark",
+          "variables": [
+            {
+              "name": "Primary/primary",
+              "type": "color",
+              "isAlias": false,
+              "value": "#258B1F"
+            },
+            {
+              "name": "Primary/active_primary",
+              "type": "color",
+              "isAlias": false,
+              "value": "#1A6A16"
+            },
+            {
+              "name": "Primary/on_primary",
+              "type": "color",
+              "isAlias": false,
+              "value": "#E4EEE4"
+            },
+            {
+              "name": "Primary/primary_container",
+              "type": "color",
+              "isAlias": false,
+              "value": "#81DE7C"
+            },
+            {
+              "name": "Primary/active_primary_container",
+              "type": "color",
+              "isAlias": false,
+              "value": "#4FCE48"
+            },
+            {
+              "name": "Primary/on_primary_container",
+              "type": "color",
+              "isAlias": false,
+              "value": "#25A31D"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

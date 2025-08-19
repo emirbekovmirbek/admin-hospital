@@ -1,0 +1,5 @@
+.template {
+  margin-top: 28px;
+  display: grid;
+  row-gap: 16px;
+}

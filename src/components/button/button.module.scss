@@ -1,0 +1,47 @@
+.button {
+  width: var(--button-width);
+  padding: 14px 24px;
+  font: var(--sem-b-18);
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  background: var(--primary-primary);
+  border-radius: 16px;
+  color: var(--primary-on-primary);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.button__small {
+  padding: 8px 10px;
+  font: var(--sem-b-12);
+}
+.button__center {
+  justify-content: center;
+}
+.button__primary-15 {
+  background: var(--primary-primary-15);
+  color: var(--primary-primary);
+}
+.button__text {
+  background: none;
+  padding: 0;
+  color: var(--primary-on-primary-dark);
+  font-weight: 400;
+}
+.button__secondary {
+  background: var(--secondary-secondary-low);
+  color: var(--primary-on-primary-dark);
+}
+.button__gray {
+  background: var(--surface-surface-high);
+  color: var(--secondary-secondary-hight);
+}
+.button__error {
+  background: var(--error-error-95);
+  color: var(--error-error);
+}
+.button:disabled {
+  opacity: 0.6;
+}
+

@@ -1,0 +1,21 @@
+.template {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+}
+
+.template > a {
+  margin-top: 18px;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.image > img {
+  width: 100%;
+}

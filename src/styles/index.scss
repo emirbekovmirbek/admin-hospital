@@ -1,0 +1,11 @@
+@use "fonts.css";
+@use "font-variables";
+@use "reset";
+@use "variables";
+
+
+body {
+  font: var(--reg-16);
+  background: var(--surface-surface-high);
+  color: var(--primary-on-primary-dark);
+}

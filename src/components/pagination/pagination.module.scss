@@ -1,0 +1,58 @@
+.template {
+  padding: 12px 52px 12px 56px;
+  color: var(--secondary-secondary-hight);
+  background-color: var(--primary-on-primary);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+
+  > span {
+    font: var(--reg-14);
+  }
+
+  .pagination {
+    width: 350px;
+    margin: 0 auto;
+
+    > div {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 24px);
+      column-gap: 24px;
+      padding: 10px 0;
+    }
+
+    > p {
+      text-align: center;
+      font: var(--sem-b-12);
+    }
+
+    button {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+      background: var(--surface-surface);
+      border-radius: 4px;
+      border: 1px solid var(--surface-surface-high);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      cursor: pointer;
+      font: inherit;
+      color: inherit;
+      font: var(--reg-12);
+    }
+
+    button.active {
+      background: var(--secondary-secondary);
+      color: var(--primary-on-primary);
+      border-color: transparent;
+    }
+
+    button.prev:disabled {
+      background: var(--surface-surface-high);
+    }
+
+    button.next:disabled {
+      background: var(--surface-surface-high);
+    }
+  }
+
+}

@@ -1,0 +1,33 @@
+:root {
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  // primary
+  --primary-primary: rgb(93, 118, 255);
+  --primary-on-primary: rgba(252, 252, 252, 1);
+  --primary-primary-15: rgba(93, 118, 255, 0.15);
+  --primary-on-primary-dark: rgb(25, 25, 25);
+
+  // secondary
+  --secondary-secondary: rgb(179, 179, 179);
+  --secondary-secondary-low: rgb(230, 230, 230);
+  --secondary-secondary-hight: rgba(153, 153, 153, 1);
+
+  // surface
+  --surface-surface: rgb(252, 252, 252);
+  --surface-surface-high: rgb(242, 241, 240);
+  --surface-surface-low: rgb(230, 230, 230);
+
+  // success
+  --success-success: rgb(92, 214, 174);
+
+  // error
+  --error-error: rgba(247, 110, 110, 1);
+  --error-error-95: rgba(254, 231, 231, 1);
+
+  // overlay
+ --overlays-default: rgba(0, 0, 0, 0.2);
+
+  // color
+  --yellow-color: rgb(247, 194, 54);
+  --grey-color: rgb(172, 172, 172)
+}

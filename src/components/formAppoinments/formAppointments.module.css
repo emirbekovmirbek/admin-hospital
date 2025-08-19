@@ -1,0 +1,13 @@
+.actions {
+  margin-top: 40px;
+  > button:first-child {
+    margin-bottom: 8px;
+  }
+}
+.button {
+  margin-left: auto;
+  margin-top: 8px;
+}
+.input {
+  margin-top: 8px;
+}

@@ -1,0 +1,43 @@
+.condition {
+  > span {
+    display: inline-block;
+    font: var(--reg-14);
+  }
+  > span:first-child {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    margin-right: 4px;
+    background: var(--success-success);
+  }
+  > span:last-child {
+   vertical-align: text-top;
+  }
+
+  .condition.green {
+    > span:first-child {
+      background: var(--success-success);
+    }
+    > span:last-child {
+      color: var(--success-success);
+    }
+  }
+
+  .condition.red {
+    > span:first-child {
+      background: var(--error-error);
+    }
+    > span:last-child {
+      color: var(--error-error);
+    }
+  }
+
+  .condition.grey {
+    > span:first-child {
+      background: var(--secondary-secondary);
+    }
+    > span:last-child {
+      color: var(--secondary-secondary);
+    }
+  }
+}

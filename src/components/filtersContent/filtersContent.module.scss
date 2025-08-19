@@ -1,0 +1,12 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 36px 0;
+}
+
+.content > div {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}

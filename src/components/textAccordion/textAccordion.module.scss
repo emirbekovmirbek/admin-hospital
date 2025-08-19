@@ -1,0 +1,22 @@
+.accordion {
+  transition: height 0.6s ease;
+  display: flex;
+  column-gap: 8px;
+  > svg {
+    transition: transform 0.3s ease-in-out;
+    min-width: 20px;
+    min-height: 20px;
+  }
+  > p {
+    transition: height 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  &.showAll {
+    > svg {
+      transform: rotate(180deg);
+    }
+    > p {
+      transition: height 0.3s ease;
+    }
+  }
+}

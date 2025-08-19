@@ -1,0 +1,74 @@
+.app_select {
+  width: 100%;
+  position: unset !important;
+}
+
+.react-select__menu {
+  transition: all 0.3s ease-in-out !important;
+  background-color: var(--surface-surface-high);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--surface-surface-high);
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  margin-top: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.react-select__control {
+  min-height: fit-content !important;
+}
+
+.app_select_secondary .react-select__menu {
+  background-color: #ffffff; /* bg-white */
+}
+
+.template_select {
+  position: relative;
+}
+
+.react-select__indicator {
+  transition: all 0.2s ease-in-out !important;
+}
+
+.react-select__control--menu-is-open .react-select__indicator {
+  transform: rotate(180deg);
+}
+
+
+.react-select__menu-list {
+  max-height: 240px !important;
+  scroll-behavior: smooth;
+}
+
+.react-select__option--is-disabled {
+  opacity: 0.3;
+}
+
+.react-select__menu-notice {
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.react-select__option {
+  padding: 10px 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.react-select__option:hover {
+  background-color: var(--white);
+}
+
+.react-select__option--is-selected {
+  background-color: var(--white);
+
+}
+
+.app_select_secondary .react-select__option--is-selected {
+  background-color: #ffffff;
+}

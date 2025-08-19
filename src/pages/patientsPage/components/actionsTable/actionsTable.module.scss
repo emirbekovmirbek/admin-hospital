@@ -1,0 +1,16 @@
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 18px;
+}
+.list {
+  > li {
+    cursor: pointer;
+    padding: 10px 18px;
+    transition: color 0.4s ease-in-out, background 0.4s;
+    &:hover {
+      background: var(--primary-primary-15);
+      color: var(--primary-primary);
+    }
+  }
+}

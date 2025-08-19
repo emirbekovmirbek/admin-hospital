@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  > div {
+    display: flex;
+    column-gap: 24px;
+  }
+}

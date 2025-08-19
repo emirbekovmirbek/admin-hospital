@@ -1,0 +1,49 @@
+.sem-b-12 {
+    font: var(--sem-b-12);
+}
+.sem-b-14 {
+    font: var(--sem-b-14);
+}
+.sem-b-16 {
+    font: var(--sem-b-16);
+}
+.sem-b-18 {
+    font: var(--sem-b-18);
+}
+
+.reg-12 {
+    font: var(--reg-12);
+}
+.reg-14 {
+    font: var(--reg-14);
+}
+.reg-16 {
+    font: var(--reg-16);
+}
+.reg-18 {
+    font: var(--reg-18);
+}
+
+.title-1 {
+    font: var(--title-1);
+}
+.title-2 {
+    font: var(--title-2);
+}
+.title-3 {
+    font: var(--title-3);
+}
+.title-l {
+    font: var(--title-l);
+}
+
+
+.error {
+    @apply text-secondary-red
+}
+.secondary {
+   color: var(--secondary-secondary);
+}
+.blue {
+    color: var(--primary-primary);
+}

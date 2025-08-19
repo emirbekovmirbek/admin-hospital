@@ -1,0 +1,21 @@
+.show {
+  > label {
+    position: relative;
+    &::after, &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      height: 2px;
+      width: 18px;
+      transform: rotate(50deg);
+    }
+    &::before {
+      background: inherit;
+      right: 22px;
+    }
+    &::after {
+      background: var(--primary-on-primary-dark);
+      right: 24px;
+    }
+  }
+}
