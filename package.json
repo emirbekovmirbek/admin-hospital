@@ -9,15 +9,20 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx}\"",
-    "ui-token": "node src/utils/convertTokens.js"
+    "ui-token": "node src/utils/convertTokens.js",
+    "test": "vitest"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
     "@reduxjs/toolkit": "^2.5.0",
+    "@testing-library/jest-dom": "^6.7.0",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
     "chart.js": "^4.4.8",
     "classnames": "^2.5.1",
     "cookiejs": "^2.1.3",
     "dayjs": "^1.11.13",
+    "happy-dom": "^18.0.1",
     "jwt-decode": "^4.0.0",
     "rc-table": "^7.50.4",
     "react": "^18.3.1",
@@ -49,6 +54,7 @@
     "prettier": "3.4.2",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.2",
-    "vite": "^6.0.5"
+    "vite": "^6.0.5",
+    "vitest": "^3.2.4"
   }
 }

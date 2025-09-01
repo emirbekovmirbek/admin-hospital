@@ -21,7 +21,7 @@ const TextAccordion = ({ className, text }: TextAccordionProps) => {
     }
   }, [isShowAll]);
   return (
-    <div className={classes(className ?? '', cls.accordion, { [cls.showAll]: isShowAll })}>
+    <div data-testid="accordion" className={classes(className ?? '', cls.accordion, { [cls.showAll]: isShowAll })}>
       {isLong && <Icon pathIcon={IconsPath.CHEVRON_ICON} onClick={handleToggle} />}
       <p
         ref={ref}

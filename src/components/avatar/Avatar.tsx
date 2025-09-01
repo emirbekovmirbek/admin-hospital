@@ -5,7 +5,7 @@ import classes from 'classnames';
 import { getInitials } from 'utils/getInitials.ts';
 
 interface AvatarProps {
-  link: string | undefined;
+  link?: string;
   width: string;
   height: string;
   fullName: string;
@@ -25,6 +25,8 @@ const Avatar = (props: AvatarProps) => {
   const { link, type = 'circle', width, border, height, fullName } = props;
   return (
     <div
+      role={'img'}
+      aria-label={fullName}
       className={classes(cls.avatar, cls[type])}
       style={{
         [CSS_VARS.width]: width,
@@ -33,7 +35,7 @@ const Avatar = (props: AvatarProps) => {
         background: bg,
       }}
     >
-      {link ? <img src={link} alt="" /> : <p>{getInitials(fullName)}</p>}
+      {link ? <img src={link} alt="Avatar" /> : <p>{getInitials(fullName)}</p>}
     </div>
   );
 };
